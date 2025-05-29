@@ -107,6 +107,7 @@
   background-color: #0a2750;
   margin: 0;
   padding: 100px 80px 215px;
+  background-image: url("../images/se_project_2_files/background_recipes.svg");
 }
 
 .recipes__videos {
@@ -151,4 +152,66 @@
 
 .recipes__iframe {
   border: none;
+}
+
+.reservation {
+  padding: 100px 0 120px;
+  background-color: #d9e7ff;
+  background-image: url("../images/se_project_2_files/background_reservation.svg");
+}
+
+.reservation__title {
+  margin: 0 0 80px;
+  text-align: center;
+}
+
+.reservation__form {
+  margin: 0 auto;
+}
+
+.form {
+  max-width: 385px;
+}
+
+.form__fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  margin: 8px 0 32px;
+  border: 1px solid #838383;
+}
+
+.form__button {
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+  margin-bottom: 32px;
+  background-color: #1878dc;
+  color: #fff;
+}
+
+.form__button:hover {
+  background-color: #3f96f3;
+}
+
+.form__checkbox {
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+  accent-color: #1878dc;
+}
+
+.form__label_type_checkbox {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
 }
