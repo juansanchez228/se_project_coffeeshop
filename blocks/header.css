@@ -12,7 +12,7 @@
 .header__title {
   margin: 183px 0 0;
   max-width: 729px;
-  font-family: "Inter", "Times New Roman", serif;
+  font-family: "Inter", arial, sans-serif;
   color: #000;
   font-style: normal;
   font-weight: 500;
@@ -59,7 +59,7 @@
 
 .header__paragraph {
   margin: 0;
-  font-family: "Inter", "Times New Roman", serif;
+  font-family: "Inter", "Arial", serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
